@@ -1,6 +1,6 @@
 cask "localwispr" do
   version "1.0.0"
-  sha256 :no_check # Updated with actual checksum on each release
+  sha256 "c88795067b83d45c8fc399e12ee818e731d80aa0ddf6297b71020f191cc3118d"
 
   url "https://github.com/srikruthreddy7/LocalWispr/releases/download/v#{version}/LocalWispr.dmg"
   name "LocalWispr"
