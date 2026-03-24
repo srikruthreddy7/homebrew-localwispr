@@ -11,6 +11,11 @@ cask "localwispr" do
 
   app "LocalWisprHost.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/LocalWisprHost.app"]
+  end
+
   zap trash: [
     "~/Library/Preferences/com.localwispr.host.plist",
     "~/Library/Application Support/LocalWispr",
