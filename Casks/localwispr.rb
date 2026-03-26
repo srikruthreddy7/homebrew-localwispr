@@ -1,6 +1,6 @@
 cask "localwispr" do
   version "1.0.0"
-  sha256 "c88795067b83d45c8fc399e12ee818e731d80aa0ddf6297b71020f191cc3118d"
+  sha256 "6c5a1d11fc6d7264f0ffeaf9056ae0b2df03e7759d8181ba44c4a5622aba065b"
 
   url "https://github.com/srikruthreddy7/LocalWispr/releases/download/v#{version}/LocalWispr.dmg"
   name "LocalWispr"
